@@ -27,3 +27,10 @@ body {
   font-size: 60px;
   color: rgb(124, 255, 53);
 }
+.text {
+  text-align: center;
+  font-size: 40px;
+  color:rgb(49, 45, 45);
+  background: #ccc;
+  padding: 20px 100px;
+}
