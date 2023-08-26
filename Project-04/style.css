@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto", sans-serif;
+}
+.header-section {
+  background-image: url(images/pic01.webp);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 200px;
+}
+.container h2 {
+  font-size: 50px;
+  color: magenta;
+  margin-bottom: 10px;
+}
+.container h1 {
+  font-size: 60px;
+  color: rgb(124, 255, 53);
+}
