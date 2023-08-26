@@ -65,3 +65,32 @@ img {
   color: rgb(45, 38, 38);
   margin-bottom: 10px;
 }
+
+.section-4 {
+  margin-left: 200px;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+}
+.contact {
+  background-color: rgb(164, 226, 226);
+  padding: 30px;
+}
+.about {
+  background-color: rgb(176, 243, 176);
+  padding: 30px;
+}
+
+.contact h1 {
+  margin-bottom: 10px;
+}
+.about h1 {
+  margin-bottom: 10px;
+}
+.contact p {
+  text-align: justify;
+}
+.about p {
+  text-align: justify;
+}
