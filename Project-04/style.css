@@ -94,3 +94,12 @@ img {
 .about p {
   text-align: justify;
 }
+
+footer {
+  background-color:rgb(242, 200, 227);
+  padding: 50px;
+  margin-top: 50px;
+}
+footer h3 {
+  text-align: center;
+}
