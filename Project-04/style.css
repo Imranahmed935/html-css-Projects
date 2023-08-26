@@ -30,7 +30,38 @@ body {
 .text {
   text-align: center;
   font-size: 40px;
-  color:rgb(49, 45, 45);
+  color: rgb(49, 45, 45);
   background: #ccc;
   padding: 20px 100px;
+  margin-top: 30px;
+}
+
+img {
+  width: 300px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+.project-section {
+  border: 1px solid #666;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 1px 0px 1px;
+}
+.section-3 {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 3% 10%;
+  gap: 30px;
+}
+
+.description {
+  width: 300px;
+  text-align: justify;
+}
+
+.title {
+  font-size: 20px;
+  color: rgb(45, 38, 38);
+  margin-bottom: 10px;
 }
