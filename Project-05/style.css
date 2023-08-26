@@ -97,3 +97,43 @@ i {
   align-items: center;
   gap: 5px;
 }
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.middle-section {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.voucher {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+hr {
+  width: 100%;
+  margin-top: 30px;
+}
+.btn1 {
+  margin-top: 50px;
+  font-size: 15px;
+  font-weight: 600;
+  background-color: green;
+  color: black;
+  padding: 5px 15px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 700px;
+}
