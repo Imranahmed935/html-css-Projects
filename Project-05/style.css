@@ -98,7 +98,7 @@ i {
   gap: 5px;
 }
 
-img {
+.img5 {
   width: 100px;
   height: 100px;
 }
@@ -121,19 +121,59 @@ hr {
   width: 100%;
   margin-top: 30px;
 }
-.btn1 {
-  margin-top: 50px;
-  font-size: 15px;
-  font-weight: 600;
-  background-color: green;
-  color: black;
-  padding: 5px 15px;
+
+.tag {
+  background: green;
+  padding: 8px 15px;
   border: none;
   outline: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.menu {
+  margin-top: 50px;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 5px;
-  margin-left: 700px;
+  gap: 50px;
+}
+img {
+  width: 380px;
+  height: 300px;
+}
+
+.grid {
+  display: grid;
+  grid-template-areas:
+    "i1 i1 i2 i3"
+    "i1 i1 i2 i7"
+    "i4 i5 i6 i7";
+  gap: 10px;
+}
+
+.item1 {
+  grid-area: i1;
+}
+.item2 {
+  grid-area: i2;
+}
+.item3 {
+  grid-area: i3;
+}
+.item4 {
+  grid-area: i4;
+}
+.item5 {
+  grid-area: i5;
+}
+.item6 {
+  grid-area: i6;
+}
+.item7 {
+  grid-area: i7;
 }
