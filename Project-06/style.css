@@ -134,7 +134,7 @@ header {
   text-align: center;
   border: 1px solid #666;
 }
-.all-movie img {
+.all-movie .img1 {
   width: 70%;
   margin-top: -600px;
 }
@@ -149,4 +149,26 @@ header {
   font-size: 20px;
   margin-left: 400px;
   margin-bottom: 20px;
+}
+.img2 {
+  width: 70%;
+  margin-top: 50px;
+}
+
+.entertainment-content {
+  background-image: url(./images/5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 400px;
+}
+.entertainment-content h2 {
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.entertainment-content p {
+  font-size: 20px;
+  color: #fff;
 }
