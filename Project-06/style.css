@@ -63,8 +63,8 @@ header {
 
 .top-section {
   width: 800px;
-  margin-left: 330px;
-  padding-top: 300px;
+  margin-left: 600px;
+  padding-top: 600px;
   text-align: center;
 }
 .top-section h1 {
@@ -80,4 +80,53 @@ header {
 .top-section p {
   font-size: 20px;
   color: white;
+}
+
+.middle-section {
+  background-color: #281154;
+  width: 100%;
+  height: 1000px;
+  text-align: center;
+}
+.content {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.content h1 {
+  font-size: 40px;
+  color: white;
+}
+.all-content {
+  width: 800px;
+  margin-left: 600px;
+  color: aliceblue;
+}
+.all-content h2 {
+  margin-top: 20px;
+  font-size: 30px;
+}
+.all-content p {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.all-content h5 {
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 10px;
+}
+
+.btn {
+  background: orangered;
+  padding: 5px 15px;
+  color: white;
+  cursor: pointer;
+  font-size: 25px;
+  outline: none;
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 3px;
 }
