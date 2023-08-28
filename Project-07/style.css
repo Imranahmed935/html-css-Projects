@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.navbar {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 150px;
+  height: auto;
+}
+.center-div {
+  display: flex;
+  align-items: center;
+}
+.center-div input {
+  font-size: 20px;
+  padding: 8px;
+  width: 600px;
+  height: 40px;
+  outline: none;
+  border: none;
+  background: #ddd;
+  border-right: none;
+}
+.search-icon {
+  font-size: 20px;
+  padding: 9px;
+  background-color: #ddd;
+}
+.mic-icon {
+  margin-left: 15px;
+  background: #ccc;
+  padding: 9px;
+  border-radius: 15px;
+}
+.avatar {
+  font-size:25px;
+  display: flex;
+  gap: 50px;
+}
