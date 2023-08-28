@@ -187,10 +187,31 @@ header {
 }
 .gift p {
   font-size: 20px;
+  letter-spacing: 1.02px;
   text-align: justify;
   margin-bottom: 20px;
 }
 .divider {
   border: 1px solid #666;
   margin-bottom: 20px;
+}
+.footer-section {
+  background-color: #1b0058;
+  color: #fff;
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.divider {
+  border-bottom: 1px solid #666;
+  margin-top: 5px;
+}
+
+.copyright {
+  background: #270082;
+  padding: 20px;
+  text-align: center;
+  color: #fff;
 }
