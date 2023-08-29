@@ -1,50 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;1,400&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+aside {
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+aside .bar {
+  margin-left: 40px;
+  font-size: 30px;
+}
+.side-icons {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.side-icons p {
+  font-size: 10px;
+}
 .container {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
 }
-.navbar {
-  padding: 20px;
+nav {
+  margin: 0 auto;
+  margin-top: -235px;
+  width: 85%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.navbar .logo {
-  width: 150px;
-  height: auto;
+.center-nav input {
+  width: 600px;
+  padding: 10px;
+  background-color: #ddd;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
 }
-.center-div {
+.center-nav .light {
+  background-color: #ddd;
+  padding: 12px;
+  font-size: 20px;
+  margin-left: -5px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.center-nav .mic {
+  background-color: #ddd;
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 30px;
+  margin-left: 15px;
+}
+
+.side-nav {
+  font-size: 25px;
   display: flex;
   align-items: center;
+  gap: 30px;
 }
-.center-div input {
-  font-size: 20px;
-  padding: 8px;
-  width: 600px;
-  height: 40px;
-  outline: none;
-  border: none;
-  background: #ddd;
-  border-right: none;
-}
-.search-icon {
-  font-size: 20px;
-  padding: 9px;
-  background-color: #ddd;
-}
-.mic-icon {
-  margin-left: 15px;
-  background: #ccc;
-  padding: 9px;
-  border-radius: 15px;
-}
-.avatar {
-  font-size:25px;
-  display: flex;
-  gap: 50px;
+.side-nav .user {
+  background-color: #dddd;
+  padding: 15px;
+  border-radius: 30px;
+  margin-left: 20px;
+  color: blue;
 }
