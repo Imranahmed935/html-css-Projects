@@ -104,6 +104,7 @@ nav {
   background: #ddd;
   padding: 5px;
   border-radius: 40px;
+  margin-bottom: 20px;
 }
 
 .tag .html {
@@ -111,7 +112,49 @@ nav {
   color: #fff;
 }
 
-/* .video-section {
-  width: 75%;
+.video-section {
+  padding: 15px;
+  background: #ddd;
+  margin-top: 20px;
+  width: 85%;
   margin: 0 auto;
-} */
+}
+.video-section .profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+}
+.video-section img {
+  width: 350px;
+  height: 200px;
+  border-radius: 5px;
+}
+.video-section {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-2 {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.title h1 {
+  font-size: 20px;
+}
+.video-section h3 {
+  font-size: 15px;
+  font-weight: 600;
+  margin-left: 60px;
+}
+.view {
+  margin-left: 58px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
