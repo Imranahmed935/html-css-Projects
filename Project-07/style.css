@@ -83,3 +83,35 @@ nav {
   margin-left: 20px;
   color: blue;
 }
+
+.border {
+  width: 85%;
+  border: 1px solid #666;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.tag {
+  width: 80%;
+  padding-top: 20px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.tag li {
+  list-style: none;
+  background: #ddd;
+  padding: 5px;
+  border-radius: 40px;
+}
+
+.tag .html {
+  background: #000;
+  color: #fff;
+}
+
+/* .video-section {
+  width: 75%;
+  margin: 0 auto;
+} */
