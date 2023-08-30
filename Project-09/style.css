@@ -92,3 +92,24 @@ img {
 .more {
   color: green;
 }
+.grid {
+  width: 70%;
+  margin-left: 200px;
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 50px;
+}
+.grid-span img {
+  width: 400px;
+  height: 200px;
+}
+.grid-span .grid-section {
+  width: 400px;
+}
+.grid-section .read {
+  margin-top: 20px;
+}
+.grid-section p {
+  text-align: justify;
+}
