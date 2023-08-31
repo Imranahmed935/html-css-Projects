@@ -26,7 +26,20 @@ nav {
 nav h1 {
   font-size: 30px;
 }
-
+.btn {
+  background: rgb(32, 246, 32);
+  padding: 15px 50px;
+  outline: none;
+  border: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #000;
+  transition: all ease 1s;
+}
+.btn:hover {
+  background: rgb(188, 211, 188);
+}
 .menu {
   list-style: none;
   display: flex;
@@ -114,7 +127,7 @@ img {
   text-align: justify;
 }
 .third-section {
-  width: 70%;
+  width: 80%;
   margin-top: 80px;
   margin-left: 200px;
   display: flex;
@@ -151,4 +164,27 @@ button {
 
 .img-section button {
   align-self: end;
+}
+
+footer {
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 5px;
+  margin-top: 20px;
+  background: #dddd;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-section {
+  margin-left: 180px;
+  font-size: 20px;
+}
+
+.icons-section {
+  margin-right: 300px;
+  font-size: 20px;
+  display: flex;
+  gap: 20px;
 }
