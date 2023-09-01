@@ -8,6 +8,11 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
 .pic1 {
   background-image: url(images/pic4.jpg);
   min-height: 100vh;
