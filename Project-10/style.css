@@ -1,0 +1,45 @@
+:root {
+  --lighting-color: rgba(9, 255, 9, 0.965);
+  --dark-color: #000;
+  --yellow-color: rgb(255, 255, 50);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  background: var(--lighting-color);
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  background: var(--yellow-color);
+  border-radius: 10px;
+  padding: 2px;
+  font-size: 40px;
+  font-weight: bold;
+}
+ul {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+ul li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 600;
+}
