@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+nav {
+  height: 80px;
+  background: #ddd;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: mediumvioletred;
+}
+.menu ul {
+  display: flex;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-right: 30px;
+  font-size: 25px;
+  font-weight: 600;
+}
+ul li:hover {
+  border-bottom: 3px solid tomato;
+}
+.header {
+  padding: 50px;
+  background-image: url(./images/photo-1507525428034-b723cf961d3e.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  opacity: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+.description h2 {
+  color: greenyellow;
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+.description p {
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+button {
+  color: tomato;
+  padding: 10px 60px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  font-size: 25px;
+  border-color: orangered;
+}
+.card {
+  width: 300px;
+  height: 350px;
+  padding: 15px 25px;
+  margin: 10px 10px;
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: translateY(-10px);
+}
+.card-1 {
+  background-image: url(./images/000.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-2 {
+  background-image: url(./images/333.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-3 {
+  background-image: url(./images/download.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-4 {
+  background-image: url(./images/images.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card h2 {
+  color: orangered;
+  font-family: "Roboto" "sans-serif";
+  font-size: 30px;
+}
+.card p {
+  color: magenta;
+  font-family: "Roboto" "sans-serif";
+  font-size: 20px;
+}
